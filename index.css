@@ -94,6 +94,7 @@ button {
 @media screen and (max-width: 600px) {
     .container {
         padding: 5px;
+        
     }
     
     .chatlogs {
@@ -103,5 +104,15 @@ button {
     .user, .bot {
         max-width: 90%;
         margin-left: 10%;
+    }
+    .chatlogs {
+        height: 450px;
+    }
+
+
+    /* Adjust background-size for mobile view */
+    body {
+        background-size: contain;
+        background-repeat: repeat;
     }
 }
