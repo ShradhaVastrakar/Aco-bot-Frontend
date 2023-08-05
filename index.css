@@ -101,10 +101,15 @@ button {
         height: 250px;
     }
 
-    .user, .bot {
+    .user{
         max-width: 90%;
-        margin-left: 10%;
+        margin-left: 12%;
     }
+    
+   .bot {
+        max-width: 90%;
+    }
+
     .chatlogs {
         height: 450px;
     }
